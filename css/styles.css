@@ -421,6 +421,7 @@ Figure {
   justify-content: center;
   padding: 25px 100px 25px 100px;
   background-color: #f5f4fa;
+  border-radius: 4px;
 }
 .iconsFigcaption {
   list-style: none;
