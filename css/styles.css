@@ -212,11 +212,17 @@ body {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
+.figcaptionPortfolio > .descTop {
+  padding-left: 24px;
+}
 .descript .desc {
   color: var(--figureColor);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875em;
+}
+.figcaptionPortfolio > .desc {
+  padding-left: 24px;
 }
 .descript {
   position: relative;
