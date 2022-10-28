@@ -545,11 +545,10 @@ Figure {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   font-size: 18px;
-  letter-spacing:0.3em;
+  letter-spacing: 0.03em;
 }
 .wrapperTechnocrack {
   background-color: rgba(33, 150, 243, 0.9);
-
   width: 370px;
   height: 294px;
   position: absolute;
