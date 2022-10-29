@@ -200,6 +200,8 @@ body {
 .footer {
   background-color: var(--footerAndHeaderBgC);
   height: 252px;
+  display: flex;
+  flex-wrap: nowrap;
 
   position: relative;
 }
@@ -480,13 +482,15 @@ Figure {
   text-transform: uppercase;
   color: var(--studioColor);
 }
-.wrapperFooterSvg {
-  display: inline-flex;
-
-  left: 35%;
+.container {
   position: relative;
-  bottom: 26%;
 }
+.wrapperFooterSvg {
+  position: absolute;
+  left: 20%;
+  bottom: 30%;
+}
+
 .footerSvg {
   display: inline-flex;
   --color1: #ffffff;
